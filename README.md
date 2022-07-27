@@ -37,6 +37,7 @@ source venv/bin/activate
 
 ```console
 python -m pip install -U -r requirements-develop.txt -c constraints.txt
+```
 
 ##### Windows
 

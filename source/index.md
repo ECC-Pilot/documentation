@@ -4,13 +4,13 @@ You can adapt this file completely to your liking, but it should at least
 contain the root `toctree` directive.
 ```
 
-# ECC-Pilot's documentation!
+# European Campus Card Pilot Project's documentation!
 
 % Abstract
 
-Project and Requirement Documentation for the European Campus Card Pilot Project by the EUGLOH Workpackage - Campus Life
+Project and Requirement Documentation for the European Campus Card Pilot Project by the EUGLOH Workpackage - Campus Life. Providing a digitized card pilot for European Heigher Education Institutions - A European Campus Card for Interoperable Services - and a Framework for additional digitized service cards. 
 
-This Projects aims at specify a version 2 of the European Student Card Idea, in such a way, that it actually provides an baseline for interoperable services and fulfil the vision of the European Student Card Initiative. 
+This Projects aims at specify a version 2 of the European Student Card ({term}`ESC`) idea, in such a way, that it actually provides an baseline for interoperable services and fulfil the vision of the European Student Card Initiative ({term}`ESCI`). 
 
 ## Contents
 
@@ -31,7 +31,8 @@ requirements/index.md
 
 ## Appendix
 
-1. {ref}`todolist`_
+1. {ref}`todolist`
+1. {ref}`glossary`
 1. {ref}`genindex`
 1. {ref}`modindex`
 1. {ref}`search`

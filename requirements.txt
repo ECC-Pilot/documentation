@@ -2,3 +2,7 @@ sphinx
 myst-parser
 sphinx_book_theme
 sphinx-copybutton
+sphinxcontrib.mermaid
+sphinxcontrib.spelling
+sphinx-issues
+sphinxcontrib-needs
