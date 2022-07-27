@@ -13,7 +13,7 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath("."))
-
+import datetime
 
 # -- Project information -----------------------------------------------------
 
@@ -28,7 +28,12 @@ author = "EUGLOH Working Package - Campus Life"
 # extensions coming with Sphinx (named "sphinx.ext.*") or your custom
 # ones.
 extensions = [
-    "myst-parser",
+    "myst_parser",
+    "sphinx.ext.githubpages",
+    "sphinxcontrib.spelling",
+    "sphinx.ext.graphviz",
+    "sphinxcontrib.mermaid",
+    "sphinx.ext.todo",
 ]
 
 # Add any paths that contain templates here, relative to this directory.
@@ -52,6 +57,13 @@ html_theme = "sphinx_book_theme"
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ["_static"]
 
+# -- Options for sphinxcontrib.spelling -------------------------------
+
+spelling_lang = "en_US"
+
+spelling_show_suggestions = True
+spelling_warning = True
+
 # -- Options for MyST -------------------------------------------------
 
 myst_enable_extensions = [
@@ -60,3 +72,7 @@ myst_enable_extensions = [
     "colon_fence",
     # "linkify",
 ]
+
+# -- Options for Sphinx.ext.todo --------------------------------------
+
+todo_include_todos = True
