@@ -62,8 +62,34 @@ The {term}`eduPerson` specification defines an enumeration of permissible values
 * employee
 * library-walk-in
 
-Those eight roles contains seven values for natural persons and one for 
+Those eight roles contains seven values for natural persons and one for technical devices. 
+Those roles have a logical structure and hierachy:
 
+```{mermaid}
+graph TD
+    
+    student
+    staff
+    faculty
+    member
+    alum
+    affiliate
+
+    staff --> employee
+    faculty --> employee
+
+    student ---> member
+    employee --> member
+```
+
+### Deliverables
+
+* API for issueing European Campus Card, containing at least the DEUinfo core application
+* API for Service Discovery (central database)
+* A Verification System 
+   * API to verify a card
+   * A Smartphone App to verify a card
+   * A contactless reader that could verify a card
 
 
 

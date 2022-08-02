@@ -58,6 +58,14 @@ html_title = "European Campus Card Pilot Project"
 #html_logo = "_static/eugloh-logo.svg"
 html_logo = "_static/project-logo.png"
 html_favicon = "_static/favicon.ico"
+html_theme_options = {
+    "repository_url": "https://github.com/ECC-Pilot/documentation",
+    "repository_branch": "main",
+    "use_repository_button": True,
+    "use_issues_button": True,
+    "use_fullscreen_button": True,
+
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

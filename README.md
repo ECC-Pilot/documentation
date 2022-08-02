@@ -1,6 +1,6 @@
 # Project and Requirement Documentation for the European Campus Card Pilot Project by the EUGLOH Workpackage - Campus Life
 
-The generated documentation is publical availiable under: 
+The generated documentation is publical availiable under: https://ecc-pilot.github.io/documentation/
 
 
 ## How to participate / contribute to the Project and Documentation
