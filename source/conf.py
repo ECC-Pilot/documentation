@@ -55,7 +55,8 @@ exclude_patterns = []
 #
 html_theme = "sphinx_book_theme"
 html_title = "European Campus Card Pilot Project"
-html_logo = "_static/eugloh-logo.svg"
+#html_logo = "_static/eugloh-logo.svg"
+html_logo = "_static/project-logo.png"
 html_favicon = "_static/favicon.ico"
 
 # Add any paths that contain custom static files (such as style sheets) here,
