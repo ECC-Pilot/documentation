@@ -34,7 +34,7 @@ jobs:
         uses: actions/configure-pages@v1
       - name: Install OS dependencies
         run: |
-          apt install -y make enchant-2
+          sudo apt-get -y build-essential enchant-2
       - name: Setup Python
         uses: actions/setup-python@v4
         with:
