@@ -59,7 +59,7 @@ The European Campus Card does reflect this by opening the system to all roles.
 A majority of Service providers, especially off campus, do offer services and discounts to members of Higher Education Institutions.
 They often only need a affiliation status verification or prove of entitlement, sometimes scoped to certain institutions.
 For Higher Education Institutions themselves, their Identity Management Systems is the "**point-of-truths**".
-Key elements of those IDM Systems are standardized with {term}`LDAP`-Schematas: [eduPerson](https://wiki.refeds.org/display/STAN/eduPerson) and [SCHema for ACademia](https://wiki.refeds.org/display/STAN/SCHAC) ({term}`SCHAC`).
+Key elements of those IDM Systems are standardized with {term}`LDAP`-Schemata: [eduPerson](https://wiki.refeds.org/display/STAN/eduPerson) and [SCHema for ACademia](https://wiki.refeds.org/display/STAN/SCHAC) ({term}`SCHAC`).
 Those Schema define a common set of attributes used by almost all {term}`HEI`s.
 
 The {term}`eduPerson` specification defines an enumeration of permissible values for roles: [eduPersonAffiliation](https://wiki.refeds.org/display/STAN/eduPerson+2021-11#eduPerson202111-eduPersonAffiliation)
@@ -93,14 +93,78 @@ graph TD
     employee --> member
 ```
 
+The problem is, a natural person could have multiple account for an login - connected to an Identity Management System.
+For each account at an institution zero to seven eduPersonAffiliation roles could be assigned.
+So a natural person could have multiple roles and even the same role in multiple institutions, so scoped affiliations are potential important.
+
+```{mermaid}
+graph TD
+
+   person[Natural Person] -- 1..n --> Account
+   Account -- 1..0-7 --> Role
+   person -. 1..n .-> Role
+```
+
+Linking of multiple accounts is a necessary thing.
+
+### Data and presentation
+
+From a HEI perspective branding and design of an identification document / a card is important.
+On the other side for service providers a common set on data is required.
+
+A European Campus Card should appear within the wallet as a card with an individual design per HEI.
+Each HEI should be able to add three logos:
+
+* HEI-Logo
+* European Campus Card Logo (maybe a specific logo per card type)
+* An Alliance Logo
+
+Some background design image and the Name of the Institution.
+
+For each Person the following data should be provided:
+
+* name
+  * given name / given names
+  * family name
+* photo
+* date of birth
+* validity dates
+
+Within the DEUinfo Application as a core set of data, the following attributes should be provided:
+
+* A Version Information (?)
+* schacHomeOrganization - Information about the issuing HEI
+* European Campus Card Identifier - A UUID specific for the schacHomeOrganization to lookup additional data and online check of validity
+* a PKI certificate / certificate chain
+
+* potential offline readable data
+  * European Student Identifier (for students)
+  * HEI Employee Identifier (for employee)
+  * ORCID (for faculty)
+  * eduPersonAffiliation / eduPersonScopedAffiliation
+  * eduPersonPrimaryAffiliation
+  * eduPersonAssurance Class
+  * Validity dates
+  * ISCED-Level (6, 7, 8 for students)
+
+
+
+
+
 ### Deliverable's
 
+* Documentation about the European Campus Card
+   * Design Guidelines
+   * Templates for GDPR Notices
+   * Description how to join the program
+   * Description how to issue cards
 * API for issuing European Campus Card, containing at least the DEUinfo core application
 * API for Service Discovery (central database)
 * A Verification System
    * API to verify a card
    * A Smartphone App to verify a card
    * A contactless reader that could verify a card
+* Components for an issuing portal
 
 ## Contents
 
