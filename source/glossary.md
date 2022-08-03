@@ -24,7 +24,7 @@ EUGLOH
     European University Alliance for Global Health
 
 GDPR
-    [General Data Protection Regulation](https://gdpr.eu/)
+    [General Data Protection Regulation](https://eur-lex.europa.eu/eli/reg/2016/679/oj)
 
 HEI
     Higher Education Institution
