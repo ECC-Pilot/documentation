@@ -93,6 +93,13 @@ graph TD
     employee --> member
 ```
 
+Within an institution most often those four roles have a relevance for identification documents / cards:
+
+* student
+* employee
+* affiliate
+* alum
+
 The problem is, a natural person could have multiple account for an login - connected to an Identity Management System.
 For each account at an institution zero to seven eduPersonAffiliation roles could be assigned.
 So a natural person could have multiple roles and even the same role in multiple institutions, so scoped affiliations are potential important.
@@ -147,8 +154,14 @@ Within the DEUinfo Application as a core set of data, the following attributes s
   * Validity dates
   * ISCED-Level (6, 7, 8 for students)
 
+### Security considerations
 
+```{hint}
+At the moment there has been no decision if a person will have one European Campus Card per primary role and institutions or if multiple roles can be merged into one card instance.
+```
 
+* A European Campus Card should not be copyable or transferable between devices.
+* A card must be an singleton active instance (A shared instance for one phone + watch should be allowed)
 
 
 ### Deliverable's
