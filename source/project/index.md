@@ -1,6 +1,6 @@
 # Project
 
-Infos about Project and EUGLOH Working Package - Campus Life
+Info's about Project and EUGLOH Working Package - Campus Life
 
 ```{todo}
 Describe the Project
