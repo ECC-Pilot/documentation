@@ -27,15 +27,17 @@ The major differences:
 * it is not limited to Students at European Union Member states --> Focus on [Erasmus+ Partner Institutions / Countries](https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries), but may extend to all Countries worldwide similar to other edu-Services like: eduRoam, eduGAIN, ...
 
 ```{todo}
-Decission on a good / better Project Name / Branding together with relevant political stakeholders
+Decision on a good / better Project Name / Branding together with relevant political stakeholders
 
-Potential Names:
+Potential Project / Branding Names:
 * **eduCard**
 * **eduPass**
 * **eduCampusCard**
 * **eduCampusPass**
 * **European Campus Card**
 * **Erasmus+ Campus Card**
+
+so it could end up in **eduCampusCard Student ID** and **eduCampusCard Employee ID** with specific translations (for example in German that could go as *eduCampusCard Dienstausweis* or *eduCampusCard Mitarbeiterausweis* )
 ```
 
 
