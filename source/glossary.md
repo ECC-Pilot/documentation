@@ -32,6 +32,9 @@ HEI
 IDM
     Identity Management
 
+ISCED
+    [International Standard Classification of Education](https://en.wikipedia.org/wiki/International_Standard_Classification_of_Education)
+
 LDAP
     Lightweight Directory Access Protocol
 
