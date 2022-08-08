@@ -7,3 +7,8 @@
   * Erasmus without Papers
   * MyAcademicID
   * Erasmus+ App
+
+
+## The Big Picture
+
+Digitalization of processes and
