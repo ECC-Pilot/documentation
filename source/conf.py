@@ -32,7 +32,7 @@ extensions = [
     "sphinx.ext.githubpages",
     #"sphinxcontrib.spelling",
     "sphinx_issues",
-    # 
+    #
     "sphinx.ext.graphviz",
     "sphinxcontrib.mermaid",
     "sphinx.ext.todo",
@@ -63,7 +63,7 @@ html_theme_options = {
     "repository_branch": "main",
     "use_repository_button": True,
     "use_issues_button": True,
-    "use_fullscreen_button": True,
+    # "use_fullscreen_button": True,
 
 }
 

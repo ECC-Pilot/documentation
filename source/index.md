@@ -1,8 +1,6 @@
-```{comment}
-ECC-Pilot documentation master file, created by `sphinx-quickstart`.
-You can adapt this file completely to your liking, but it should at least
-contain the root `toctree` directive.
-```
+% ECC-Pilot documentation master file, created by `sphinx-quickstart`.
+% You can adapt this file completely to your liking, but it should at least
+% contain the root `toctree` directive.
 
 # European Campus Card Pilot: Project Documentation
 
@@ -44,20 +42,7 @@ so it could end up in **eduCampusCard Student ID** and **eduCampusCard Employee 
 
 
 ```{hint}
-This Document / Documentation define requirements, therefor the key words
-
-* "MUST",
-* "MUST NOT",
-* "REQUIRED",
-* "SHALL",
-* "SHALL NOT",
-* "SHOULD",
-* "SHOULD NOT",
-* "RECOMMENDED",
-* "MAY", and
-* "OPTIONAL"
-
-in this document are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
+This Document / Documentation define requirements, therefor the key words "**MUST**", "**REQUIRED**", "**SHALL**", "**MUST NOT**", "**SHALL NOT**", "**SHOULD**", "**RECOMMENDED**", "**SHOULD NOT**", "**NOT RECOMMENDED**", "**MAY**", and "**OPTIONAL**" in this document are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
 ```
 
 ## Background
@@ -70,7 +55,7 @@ The defined "European Student Card" specification neither reflects the needs of 
 Additionally, the provided specification documents and implemented elements conflicts with {term}`GDPR` requirements and have a lot IT-security issues.
 
 ```{warning}
-We do not recommend any Higher Education institution to implement the current European Student Card Specification of the European Student Card Project / ECS-Tension Project.
+We do **NOT** recommend any Higher Education Institution to implement the current **European Student Card** Specification of the [European Student Card Project](https://europeanstudentcard.eu/) / [ESC-Tension Project](https://www.esc-tension.eu/).
 ```
 
 ## Goals of this project - a "European Campus Card"
@@ -210,8 +195,8 @@ At the moment there has been no decision if a person will have one European Camp
 * Documentation about the European Campus Card
    * Design Guidelines
    * Templates for GDPR Notices
-   * Description how to join the program
-   * Description how to issue cards
+   * Description on how to join the program
+   * Description on how to issue cards
 * API for issuing European Campus Card, containing at least the DEUinfo core application
 * API for Service Discovery (central database)
 * A Verification System
@@ -230,7 +215,7 @@ caption: Table of contents
 ---
 
 project/index.md
-card/index.md
+
 requirements/index.md
 
 ```

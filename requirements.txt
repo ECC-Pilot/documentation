@@ -5,4 +5,4 @@ sphinx-copybutton
 sphinxcontrib.mermaid
 sphinxcontrib.spelling
 sphinx-issues
-sphinxcontrib-needs
+sphinx-needs
