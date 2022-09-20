@@ -1,0 +1,17 @@
+li p {
+    margin-bottom: 0;
+}
+
+.admonition.admonition-todo {
+    border-left-color: #d86626;
+}
+
+.admonition.admonition-todo .admonition-title {
+    background-color: rgba(216,102,38,0.5);  // #d86626;
+    color: white;
+}
+
+.admonition.admonition-todo .admonition-title::before {
+    color: white;
+    content: "";
+}

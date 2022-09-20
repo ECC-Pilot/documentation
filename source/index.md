@@ -4,9 +4,11 @@
 
 # European Campus Card Pilot: Project Documentation
 
-```{note}
+```{attention}
 This document is a work in progress.
 Structure and content may change a lot within the next days / weeks.
+
+Version 0.0.1dev
 
 ```
 % Abstract
