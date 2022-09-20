@@ -34,8 +34,10 @@ Potential Project / Branding Names:
 * **eduPass**
 * **eduCampusCard**
 * **eduCampusPass**
+* **eduCampusID**
 * **European Campus Card**
 * **Erasmus+ Campus Card**
+* **Campus ID**
 
 so it could end up in **eduCampusCard Student ID** and **eduCampusCard Employee ID** with specific translations (for example in German that could go as *eduCampusCard Dienstausweis* or *eduCampusCard Mitarbeiterausweis* )
 ```
