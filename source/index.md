@@ -137,77 +137,21 @@ So a natural person could have multiple roles and even the same role in multiple
 ```{mermaid}
 graph TD
 
-   person[Natural Person] -- 1..n --> Account
-   Account -- 1..0-7 --> Role
-   person -. 1..n .-> Role
+   person[Natural Person]
+   account[Account]
+   role[Role]
+   pass[Pass / Card]
+
+   person -- 1..n --> account
+   account -- 1..0-7 --> role
+   person -. 1..n .-> role
+
+   account -- 1..n --> pass
+   role --. 1..n .-> pass
+
 ```
 
 Linking of multiple accounts is a necessary thing.
-
-### Data and presentation
-
-From a HEI perspective branding and design of an identification document / a card is important.
-On the other hand for service providers a common set on data is required.
-
-A European Campus Card should appear within the wallet as a card with an individual design per {term}`HEI`.
-Each {term}`HEI` should be able to add three logos:
-
-* {term}`HEI`-Logo
-* European Campus Card Logo (maybe a specific logo per card type and international scope --> European Union, Erasmus+ Counties, global scope)
-* An Alliance Logo
-
-Some background design image and the Name of the Institution.
-
-For each Person the following data should be provided:
-
-* name
-  * given name / given names
-  * surname
-* photo
-* date of birth
-* validity dates
-
-Within the DEUinfo Application as a core set of data, the following attributes should be provided:
-
-* A Version Information (?)
-* schacHomeOrganization - Information about the issuing {term}`HEI`
-* Campus Card Identifier - A UUID specific for the schacHomeOrganization to lookup additional data and online check of validity
-* a PKI certificate / certificate chain
-
-* potential offline readable data
-  * European Student Identifier ({term}`ESI`) (for students)
-  * {term}`HEI` Employee Identifier (for employee)
-  * ORCID (for faculty)
-  * eduPersonAffiliation / eduPersonScopedAffiliation
-  * eduPersonPrimaryAffiliation
-  * eduPersonAssurance Class
-  * Validity dates
-  * {term}`ISCED`-Level (6, 7, 8 for students)
-
-### Security considerations
-
-```{hint}
-At the moment there has been no decision if a person will have one European Campus Card per primary role and institution or if multiple roles can be merged into one card instance.
-```
-
-* A European Campus Card should not be copyable or transferable between devices.
-* A card must be a singleton active instance (A shared instance for one phone + watch should be allowed)
-
-
-### Deliverable's
-
-* Documentation about the European Campus Card
-   * Design Guidelines
-   * Templates for GDPR Notices
-   * Description on how to join the program
-   * Description on how to issue cards
-* API for issuing European Campus Card, containing at least the DEUinfo core application
-* API for Service Discovery (central database)
-* A Verification System
-   * API to verify a card
-   * A Smartphone App to verify a card
-   * A contactless reader that could verify a card
-* Components for an issuing portal
 
 ## Contents
 
@@ -221,6 +165,20 @@ caption: Table of contents
 project/index.md
 
 requirements/index.md
+
+```
+
+
+```{toctree}
+---
+maxdepth: 3
+name: backlogtoc
+caption: Backlog of still unstructered content
+glob:
+---
+
+backlog/*
+backlog/**/*
 
 ```
 
