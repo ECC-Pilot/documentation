@@ -166,7 +166,7 @@ caption: Table of contents
 ---
 
 project/index.md
-
+partners.md
 requirements/index.md
 
 ```
