@@ -32,9 +32,12 @@ Decision on a good / better Project Name / Branding together with relevant polit
 Potential Project / Branding Names:
 * **eduCard**
 * **eduPass**
+* **eduTap**
 * **eduCampusCard**
 * **eduCampusPass**
 * **eduCampusID**
+* **eduID**
+* **E^2ID - European Educational ID**
 * **European Campus Card**
 * **Erasmus+ Campus Card**
 * **Campus ID**
