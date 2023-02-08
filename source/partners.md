@@ -17,4 +17,4 @@
 - Legic
 - NXP
 
-in colaboration with the European Commision, Géant and Google
+in collaboration with the European Commision, Géant and Google
