@@ -1,8 +1,8 @@
-% ECC-Pilot documentation master file, created by `sphinx-quickstart`.
+% eduTap documentation master file, created by `sphinx-quickstart`.
 % You can adapt this file completely to your liking, but it should at least
 % contain the root `toctree` directive.
 
-# European Campus Card Pilot: Project Documentation
+# eduTap Project Documentation
 
 ```{attention}
 This document is a work in progress.
@@ -13,7 +13,7 @@ Version 0.0.1dev
 ```
 % Abstract
 
-Project and Requirement Documentation for the "**European Campus Card**" **Pilot Project** by the EUGLOH Work Package - Campus Life.
+Project and Requirement Documentation for the "**eduTap**" **Project** by the EUGLOH Work Package - Campus Life.
 Providing a digitized card pilot for European Higher Education Institutions - *A Campus Card for Interoperable Services* - and a Framework for additional digitized service cards.
 
 ```{note}
@@ -25,28 +25,6 @@ The major differences:
 * aim to issue the cards as wallet passes into smartphones
 * not to integrate all services into one card, but provide a core card / pass and additional cards / passes for legacy services
 * it is not limited to Students at European Union Member states --> Focus on [Erasmus+ Partner Institutions / Countries](https://erasmus-plus.ec.europa.eu/programme-guide/part-a/eligible-countries), but may extend to all Countries worldwide similar to other edu-Services like: eduRoam, eduGAIN, ...
-
-```{todo}
-Decision on a good / better Project Name / Branding together with relevant political stakeholders
-
-Potential Project / Branding Names:
-* **eduCard**
-* **eduPass**
-* **eduTap**
-* **eduCampusCard**
-* **eduCampusPass**
-* **eduCampusID**
-* **eduID**
-* **E^2ID - European Educational ID**
-* **European Campus Card**
-* **Erasmus+ Campus Card**
-* **Campus ID**
-
-so it could end up in **eduCampusCard Student ID** and **eduCampusCard Employee ID** with specific translations (for example in German that could go as *eduCampusCard Dienstausweis* or *eduCampusCard Mitarbeiterausweis* )
-```
-
-
-
 
 ```{hint}
 This Document / Documentation define requirements, therefor the key words "**MUST**", "**REQUIRED**", "**SHALL**", "**MUST NOT**", "**SHALL NOT**", "**SHOULD**", "**RECOMMENDED**", "**SHOULD NOT**", "**NOT RECOMMENDED**", "**MAY**", and "**OPTIONAL**" in this document are to be interpreted as described in [RFC 2119](https://datatracker.ietf.org/doc/html/rfc2119).
@@ -65,7 +43,7 @@ Additionally, the provided specification documents and implemented elements conf
 We do **NOT** recommend any Higher Education Institution to implement the current **European Student Card** Specification of the [European Student Card Project](https://europeanstudentcard.eu/) / [ESC-Tension Project](https://www.esc-tension.eu/).
 ```
 
-## Goals of this project - a "European Campus Card"
+## Goals of eduTap project
 
 The vision of the "European Student Card" is valid and great.
 This project group honors the vision and tries to provide an alternative specification that would provide an interoperable baseline.

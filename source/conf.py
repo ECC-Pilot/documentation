@@ -17,7 +17,7 @@ import datetime
 
 # -- Project information -----------------------------------------------------
 
-project = "ECC-Pilot"
+project = "eduTap"
 copyright = f"{datetime.date.today().year}, EUGLOH Working Package - Campus Life"
 author = "EUGLOH Working Package - Campus Life"
 
@@ -54,7 +54,7 @@ exclude_patterns = []
 # a list of builtin themes.
 #
 html_theme = "sphinx_book_theme"
-html_title = "European Campus Card Pilot Project"
+html_title = "eduTap Project"
 #html_logo = "_static/eugloh-logo.svg"
 html_logo = "_static/project-logo.png"
 html_favicon = "_static/favicon.ico"
