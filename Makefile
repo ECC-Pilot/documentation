@@ -23,3 +23,8 @@ help:
 .PHONY: livehtml
 livehtml: ## Rebuild Sphinx documentation on changes, with live-reload in the browser
 	${SPHINXAUTOBUILD} -b html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O)
+
+
+.PHONY: docs-live
+docs-live: ## Rebuild Sphinx documentation on changes, with live-reload in the browser
+	${SPHINXAUTOBUILD} -b html "$(SOURCEDIR)" "$(BUILDDIR)" $(SPHINXOPTS) $(O) --port 9000

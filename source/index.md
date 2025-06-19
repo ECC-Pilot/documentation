@@ -125,10 +125,10 @@ graph TD
 
    person -- 1..n --> account
    account -- 1..0-7 --> role
-   person -. 1..n .-> role
+   person -- 1..n --> role
 
    account -- 1..n --> pass
-   role --. 1..n .-> pass
+   role -- 1..n --> pass
 
 ```
 
