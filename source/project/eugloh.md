@@ -1,6 +1,6 @@
 # European University Alliance for Global Health (EUGLOH)
 
-The [European University Alliance for Global Health (EUGLOH)](https://www.eugloh.eu/about/) is a strategic partnership between the *Université Paris-Saclay (UPSaclay)*, *Lund University (LU)*, *Ludwig-Maximilians-Universität München (LMU)*, *Universidade do Porto (UPorto)* and the *University of Szeged (USZ)* in the context of the European Commission’s European Universities Initiative.
+The [European University Alliance for Global Health (EUGLOH)](https://www.eugloh.eu/about-eugloh/) is a strategic partnership between the *Université Paris-Saclay (UPSaclay)*, *Lund University (LU)*, *Ludwig-Maximilians-Universität München (LMU)*, *Universidade do Porto (UPorto)* and the *University of Szeged (USZ)* in the context of the European Commission’s European Universities Initiative.
 
 > EUGLOH’s visions and objectives are:
 >
@@ -11,4 +11,4 @@ The [European University Alliance for Global Health (EUGLOH)](https://www.eugloh
 > * **Building a European campus with a high level of integration sustained by joint procedures and structures**
 > * Boosting attractiveness and competitiveness of European higher education, research and innovation
 >
-> Source: <https://www.eugloh.eu/about/vision-and-objectives>
+> Source: <https://www.eugloh.eu/about-eugloh/>

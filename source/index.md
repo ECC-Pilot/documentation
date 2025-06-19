@@ -17,7 +17,7 @@ Project and Requirement Documentation for the "**eduTap**" **Project** by the EU
 Providing a digitized card pilot for European Higher Education Institutions - *A Campus Card for Interoperable Services* - and a Framework for additional digitized service cards.
 
 ```{note}
-This project aims at specifying a new, better version of the [European Student Card](https://europeanstudentcard.eu/) ({term}`ESC`) idea, in such a way, that it actually provides an baseline for interoperable services and fulfils the vision of the European Student Card Initiative ({term}`ESCI`).
+This project aims at specifying a new, better version of the [European Student Card](https://erasmus-plus.ec.europa.eu/european-student-card-initiative/card) ({term}`ESC`) idea, in such a way, that it actually provides an baseline for interoperable services and fulfils the vision of the European Student Card Initiative ({term}`ESCI`).
 
 The major differences:
 
@@ -40,7 +40,7 @@ The defined "European Student Card" specification neither reflects the needs of 
 Additionally, the provided specification documents and implemented elements conflicts with {term}`GDPR` requirements and have a lot IT-security issues.
 
 ```{warning}
-We do **NOT** recommend any Higher Education Institution to implement the current **European Student Card** Specification of the [European Student Card Project](https://europeanstudentcard.eu/) / [ESC-Tension Project](https://www.esc-tension.eu/).
+We do **NOT** recommend any Higher Education Institution to implement the current **European Student Card** Specification of the [European Student Card Project](https://erasmus-plus.ec.europa.eu/european-student-card-initiative/card) / [ESC-Tension Project](https://www.esc-tension.eu/).
 ```
 
 ## Goals of eduTap project
